@@ -1,5 +1,7 @@
 .a{
-    margin: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: grey;
 }
 h1{
     text-align: center;
@@ -11,10 +13,22 @@ h1{
 h3{
     text-align: center;
 }
-.b{
+.intro{
+    border: solid;
+    border-radius: 12px;
     padding: 5px;
+    margin: 5px;
+}
+.b{
+    text-decoration: underline;
+}
+.image{
+    margin: 5px;
+    text-align: center;
 }
 .imgwidth{
+    border-radius: 100%;
+    border: solid;
     width: 200px;
 }
 .form{
@@ -26,9 +40,11 @@ h3{
     background-color: green;
     font-size: 12px;
     text-align: center;
+    margin-bottom: 3px;
 }
 .c{
     color: white;
     text-align: center;
+    margin-top: 3px;
     background-color: black;
 }
